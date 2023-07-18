@@ -5,9 +5,6 @@
 # TranAD
 This repository supplements our paper "TranAD: Deep Transformer Networks for Anomaly Detection in Multivariate Time Series Data" accepted in VLDB 2022. This is a refactored version of the code used for results in the paper for ease of use. Follow the below steps to replicate each cell in the results table.
 
-## Results
-![Alt text](results/main.PNG?raw=true "results")
-
 ## Installation
 This code needs Python-3.7 or higher.
 ```bash
@@ -66,10 +63,6 @@ Testing TranAD on SMAP
 ```
 
 All outputs can be run multiple times to ensure statistical significance. 
-
-## Supplementary video
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/b2fSzneXPsg/0.jpg)](https://www.youtube.com/watch?v=b2fSzneXPsg)
 
 ## Cite this work
 
