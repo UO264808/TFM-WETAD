@@ -4,7 +4,7 @@
 Este repositorio contiene una recopilación de los experimentos desarrollados en el Trabajo Fin de Master _"Diagnóstico inteligente de anomalías y pronóstico de vida útil"_. El código se encuentra dividido en dos secciones bien diferenciadas: Una parte (markov_chain_experiments) se encuentra destinada a los experimentos realizados con series simbólicas basadas en Cadenas de Markov. La otra parte (TranAD) se corresponde con la comparativa realizada entre WETAD y los métodos obtenidos como alternativas del Estado del Arte.
 
 ## Dependencias
-En caso de necesitar volver a repetir los experimentos será necesario instalar las correspondientes depedencias haciendo uso de entornos virtuales. En la siguiente lista aparecen las dependencias para ambas secciones;
+En caso de necesitar volver a repetir los experimentos será necesario instalar las correspondientes depedencias haciendo uso de entornos virtuales. En la siguiente lista aparecen las dependencias para ambas secciones.
 
 ```
 pandas
@@ -32,5 +32,5 @@ python3 main.py --model <model> --dataset <dataset> --retrain
 ```
 
 ## Autoría y licencias
-El diseño y desarrollo del método WETAD y de los experimentos es propio excepto los de la comparativa, donde el código es un fork del repositorio original de TranAD y por tanto, obra de los autores de TranAD así como la implementación de los métodos utilizados en la comparativa.
-El código de TranAD cuenta con la licencia BSD-3-Clause. El archivo de Licencia viene incluído.
+El diseño y desarrollo del método WETAD y de los experimentos es propio excepto los métodos de la comparativa, donde el código es un fork del repositorio original de TranAD así como la implementación de los métodos utilizados en la comparativa.
+El código de TranAD cuenta con la licencia BSD-3-Clause. El archivo de Licencia viene incluido.
